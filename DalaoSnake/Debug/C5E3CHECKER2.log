@@ -1,0 +1,23 @@
+﻿生成启动时间为 2016/11/8 21:55:45。
+     1>项目“C:\Users\Administrator\Desktop\windows_homework\Snake\蛇蛇\C5E3CHECKER2t\C5E3CHECKER2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\IDE\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt checker2.cpp
+         checker2.cpp
+     1>c:\users\administrator\desktop\windows_homework\snake\蛇蛇\c5e3checker2t\checker2.cpp(8): warning C4081: 应输入“newline”；找到“;”
+     1>c:\users\administrator\desktop\windows_homework\snake\蛇蛇\c5e3checker2t\checker2.cpp(299): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>c:\users\administrator\desktop\windows_homework\snake\蛇蛇\c5e3checker2t\checker2.cpp(539): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\ide\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>c:\users\administrator\desktop\windows_homework\snake\蛇蛇\c5e3checker2t\checker2.cpp(544): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\desktop\windows_homework\snake\蛇蛇\c5e3checker2t\checker2.cpp(934): warning C4101: “backgroundhdc1”: 未引用的局部变量
+     1>c:\users\administrator\desktop\windows_homework\snake\蛇蛇\c5e3checker2t\checker2.cpp(1106): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\ide\vc\include\stdio.h(211) : 参见“fopen”的声明
+       Link:
+         D:\IDE\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\C5E3CHECKER2.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\C5E3CHECKER2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\C5E3CHECKER2.lib" /MACHINE:X86 /SAFESEH .\Debug\checker2.obj
+         LINK : 缺少程序数据库 C:\Users\Administrator\Desktop\windows_homework\Snake\蛇蛇\C5E3CHECKER2t\Debug\C5E3CHECKER2.pdb；正在执行完全链接
+     1>checker2.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         C5E3CHECKER2.vcxproj -> C:\Users\Administrator\Desktop\windows_homework\Snake\蛇蛇\C5E3CHECKER2t\.\Debug\C5E3CHECKER2.exe
+     1>已完成生成项目“C:\Users\Administrator\Desktop\windows_homework\Snake\蛇蛇\C5E3CHECKER2t\C5E3CHECKER2.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.51
